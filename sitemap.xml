@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.zeon.im/2018/03/29/%E5%86%8D%E4%B8%80%E6%AC%A1%E4%BD%A0%E5%A5%BD/</loc>
+    <lastmod>2018-03-29T00:23:11+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.zeon.im/about/</loc>
     <lastmod>2018-03-28T23:44:00+08:00</lastmod>
   </url>
@@ -13,13 +18,31 @@
   </url>
   
   <url>
+    <loc>https://blog.zeon.im/post/</loc>
+    <lastmod>2018-03-29T00:23:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.zeon.im/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.zeon.im/</loc>
-    <lastmod>2018-03-28T23:44:00+08:00</lastmod>
+    <lastmod>2018-03-29T00:23:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zeon.im/tags/%E6%9C%89%E7%9A%84%E6%B2%A1%E7%9A%84/</loc>
+    <lastmod>2018-03-29T00:23:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zeon.im/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2018-03-29T00:23:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
