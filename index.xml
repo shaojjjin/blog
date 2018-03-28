@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jasper`s site</title>
-    <link>http://imzeon.gitee.io/</link>
+    <link>http://imzeon.gitee.io/blog/</link>
     <description>Recent content on Jasper`s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://imzeon.gitee.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://imzeon.gitee.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
