@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.zeon.im/categories/</loc>
+    <loc>http://blog.zeon.im/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.zeon.im/tags/</loc>
+    <loc>http://blog.zeon.im/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.zeon.im/</loc>
+    <loc>http://blog.zeon.im/</loc>
     <priority>0</priority>
   </url>
   
