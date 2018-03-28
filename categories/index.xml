@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Jasper`s site</title>
-    <link>http://imzeon.gitee.io/blog/categories/</link>
-    <description>Recent content in Categories on Jasper`s site</description>
+    <title>Categories on emmm,nothing here.</title>
+    <link>http://blog.zeon.im/categories/</link>
+    <description>Recent content in Categories on emmm,nothing here.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     
-	<atom:link href="http://imzeon.gitee.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.zeon.im/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

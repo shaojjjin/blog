@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://imzeon.gitee.io/blog/categories/</loc>
+    <loc>http://blog.zeon.im/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://imzeon.gitee.io/blog/</loc>
+    <loc>http://blog.zeon.im/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://imzeon.gitee.io/blog/tags/</loc>
+    <loc>http://blog.zeon.im/</loc>
     <priority>0</priority>
   </url>
   
