@@ -5,9 +5,21 @@
     <link>https://blog.zeon.im/</link>
     <description>Recent content on nothing here</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 28 Mar 2018 23:44:00 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.zeon.im/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://blog.zeon.im/about/</link>
+      <pubDate>Wed, 28 Mar 2018 23:44:00 +0800</pubDate>
+      
+      <guid>https://blog.zeon.im/about/</guid>
+      <description> 关于 用来记录些琐碎的东西罢了。
+ Nothing is everything.
+ </description>
+    </item>
     
   </channel>
 </rss>
