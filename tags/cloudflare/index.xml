@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nothing here</title>
-    <link>https://blog.zeon.im/</link>
-    <description>Recent content on Nothing here</description>
+    <title>Cloudflare on Nothing here</title>
+    <link>https://blog.zeon.im/tags/cloudflare/</link>
+    <description>Recent content in Cloudflare on Nothing here</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 29 Mar 2018 16:49:01 +0800</lastBuildDate>
     
-	<atom:link href="https://blog.zeon.im/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.zeon.im/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,31 +19,6 @@
       <description> 很久之前，我写过一个用Dnspod实现动态ip解析的php脚本(想了解的可以看看这里，不过当时的代码写得很烂哈哈)。不过随着这次将博客托管到GitHub Pages，为了启用https，我也不得不将域名的DNS解析服务转移到Cloudflare上来，所以之前实现的在Dnspod动态域名脚本也不能用了。
 开始之前的准备 Cloudflare为开发者们提供了API，具体的API可以看看他们的手册。
 获取Cloudflare的相关信息  登录账号 其实就是你登录的邮箱，不确定的话可以打开 https://www.cloudflare.com/a/profile 第一栏就是了。 API Key 在同一个页面，找到API Key这一栏，点击view API Key，输入自己的密码就能看到自己的API Key。 Zone id 这个位于 “https://www.cloudflare.com/a/overview” 的第二块区域 “Domain Summary” 的右侧。  获取脚本  未完待续。
- </description>
-    </item>
-    
-    <item>
-      <title>再一次，你好</title>
-      <link>https://blog.zeon.im/2018/03/%E5%86%8D%E4%B8%80%E6%AC%A1%E4%BD%A0%E5%A5%BD/</link>
-      <pubDate>Thu, 29 Mar 2018 00:23:11 +0800</pubDate>
-      
-      <guid>https://blog.zeon.im/2018/03/%E5%86%8D%E4%B8%80%E6%AC%A1%E4%BD%A0%E5%A5%BD/</guid>
-      <description>再一次，你好。
-之前也断断续续地部署过不少的博客，一路走下来像 wordpress、typecho、hexo或者是ghost这些博客平台多多少少都有接触过，但其实部署博客最大的问题不是在于部署而是在坚持吧。
-这次的博客平台选择的是hugo,同时将其托管于GitHub上，算是一种很简单的实现形式。
-之前写过的一些笔记啊什么的乱七八糟的看心情要不要重新整理之后再发布上来。
- 不忘初心，方得始终。
- </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://blog.zeon.im/about/</link>
-      <pubDate>Wed, 28 Mar 2018 23:44:00 +0800</pubDate>
-      
-      <guid>https://blog.zeon.im/about/</guid>
-      <description>用来记录些琐碎的东西罢了。
- Nothing is everything.
  </description>
     </item>
     

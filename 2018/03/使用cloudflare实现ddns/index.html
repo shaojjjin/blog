@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="">
+<head>
+
+  
+  <meta charset="UTF-8">
+  <title>
+    使用Cloudflare实现DDNS | Nothing here
+  </title>
+
+
+  
+  <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
+
+  
+  <link rel="canonical" href="https://blog.zeon.im/2018/03/%E4%BD%BF%E7%94%A8cloudflare%E5%AE%9E%E7%8E%B0ddns/"/>
+
+  
+  <link rel="stylesheet" href="/css/sanitize.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="stylesheet" href="/css/highlight_monokai.css">
+  <link rel="stylesheet" href="/css/theme.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  
+  
+  <link href="https://blog.zeon.im/index.xml" rel="alternate" type="application/rss+xml" title="Nothing here" />
+  <link href="https://blog.zeon.im/index.xml" rel="feed" type="application/rss+xml" title="Nothing here" />
+
+  
+  
+
+
+</head>
+
+
+
+<body>
+<div class="container">
+
+  
+  <header role="banner">
+    <div class="row gutters">
+      <div id="site-title" class="col span_6">
+        <h1><a href="https://blog.zeon.im/">Nothing here</a></h1>
+        <h2>But nothing is everthing.</h2>
+      </div>
+      <div id="social" class="col span_6">
+        <ul>
+          <li><a href="/about">About</a></li>
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+  
+  <main id="single" role="main">
+    <div class="article-header">
+      <h1>使用Cloudflare实现DDNS</h1>
+      <div class="meta">
+        Mar 29, 2018 &nbsp;
+        
+          #<a href="/tags/php">php</a>&nbsp;
+        
+          #<a href="/tags/ddns">DDNS</a>&nbsp;
+        
+          #<a href="/tags/cloudflare">Cloudflare</a>&nbsp;
+        
+      </div>
+    </div>
+    <article>
+      
+
+<p>很久之前，我写过一个用<code>Dnspod</code>实现动态ip解析的php脚本(想了解的可以看看<a href="https://github.com/shaojjjin/DNSPOD-DDNS">这里</a>，不过当时的代码写得很烂哈哈)。不过随着这次将博客托管到<code>GitHub Pages</code>，为了启用https，我也不得不将域名的DNS解析服务转移到<code>Cloudflare</code>上来，所以之前实现的在<code>Dnspod</code>动态域名脚本也不能用了。</p>
+
+<h2 id="开始之前的准备">开始之前的准备</h2>
+
+<p>Cloudflare为开发者们提供了API，具体的API可以看看他们的<a href="https://api.cloudflare.com/">手册</a>。</p>
+
+<h3 id="获取cloudflare的相关信息">获取Cloudflare的相关信息</h3>
+
+<ol>
+<li>登录账号
+<img src="https://dn-imzeon.qbox.me/blog/180329/BH98339BJ1.png?imageslim" alt="获取邮箱" />
+其实就是你登录的邮箱，不确定的话可以打开 <a href="https://www.cloudflare.com/a/profile">https://www.cloudflare.com/a/profile</a> 第一栏就是了。</li>
+<li>API Key
+<img src="https://dn-imzeon.qbox.me/blog/180329/K8609k1ALj.png?imageslim" alt="获取api_key" />
+在同一个页面，找到<code>API Key</code>这一栏，点击<code>view API Key</code>，输入自己的密码就能看到自己的API Key。</li>
+<li>Zone id
+<img src="https://dn-imzeon.qbox.me/blog/180329/h1hd73jL9b.png?imageslim" alt="获取Zone_id" />
+这个位于 “<a href="https://www.cloudflare.com/a/overview">https://www.cloudflare.com/a/overview</a>” 的第二块区域 “Domain Summary” 的右侧。</li>
+</ol>
+
+<h3 id="获取脚本">获取脚本</h3>
+
+<blockquote>
+<p>未完待续。</p>
+</blockquote>
+
+      
+      
+      
+    </article>
+    
+
+
+  </main>
+  
+  <nav class="pagination-single">
+    
+      <span class="previous">&larr; <a href="https://blog.zeon.im/2018/03/%E5%86%8D%E4%B8%80%E6%AC%A1%E4%BD%A0%E5%A5%BD/" rel="prev">再一次，你好</a></span>
+    
+    
+  </nav>
+
+
+  
+  <footer role="contentinfo">
+    <div style="text-align:center;">
+      
+      ©2018 zeon.im
+    </div>
+  </footer>
+
+
+</div>
+
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+</body>
+</html>
+
