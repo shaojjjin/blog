@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nothing here</title>
+    <title>Nothing here</title>
     <link>https://blog.zeon.im/</link>
-    <description>Recent content on nothing here</description>
+    <description>Recent content on Nothing here</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 29 Mar 2018 00:23:11 +0800</lastBuildDate>
     
@@ -21,6 +21,17 @@
 这次的博客平台选择的是hugo,同时将其托管于GitHub上，算是一种很简单的实现形式。
 之前写过的一些笔记啊什么的乱七八糟的看心情要不要重新整理之后再发布上来。
  不忘初心，方得始终。
+ </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://blog.zeon.im/about/</link>
+      <pubDate>Wed, 28 Mar 2018 23:44:00 +0800</pubDate>
+      
+      <guid>https://blog.zeon.im/about/</guid>
+      <description>用来记录些琐碎的东西罢了。
+ Nothing is everything.
  </description>
     </item>
     
