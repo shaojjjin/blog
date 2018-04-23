@@ -5,10 +5,22 @@
     <link>https://blog.zeon.im/post/</link>
     <description>Recent content in Posts on Nothing here</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 29 Mar 2018 16:49:01 +0800</lastBuildDate>
+    <copyright>©2018 zeon.im</copyright>
+    <lastBuildDate>Mon, 23 Apr 2018 15:47:04 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.zeon.im/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>在deepin 15.5 配置php开发环境</title>
+      <link>https://blog.zeon.im/2018/04/%E5%9C%A8deepin-15.5-%E9%85%8D%E7%BD%AEphp%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
+      <pubDate>Mon, 23 Apr 2018 15:47:04 +0800</pubDate>
+      
+      <guid>https://blog.zeon.im/2018/04/%E5%9C%A8deepin-15.5-%E9%85%8D%E7%BD%AEphp%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</guid>
+      <description>Deepin 是基于 Debian 进行深度开发而来的，对于中国开发者来，是一个说相对比较友好的发行版。
+更新系统并安装必要的软件 首先对系统进行升级，我这边比较习惯使用的oh-my-zsh，所以我在这个地方也一并装上。
+sudo apt update sudo apt upgrade sudo apt install git zsh curl sh -c &amp;quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&amp;quot;  添加 Ondřej Surý 大神打包的 Nginx 源并安装 1. 首先增加key sudo wget -O /etc/apt/trusted.gpg.d/nginx-mainline.gpg https://packages.sury.org/nginx-mainline/apt.gpg  2. 然后增加 Nginx 源 sudo cat &amp;gt;&amp;gt; /etc/apt/sources.list.d/nginx.list &amp;lt;&amp;lt; EOF deb https://packages.sury.org/nginx-mainline/stretch main EOF  3. 安装 Nginx sudo apt update sudo apt install nginx-extras  添加 Ondřej Surý 大神打包的 PHP 源并安装 PHP 7.</description>
+    </item>
     
     <item>
       <title>使用Cloudflare实现DDNS</title>
