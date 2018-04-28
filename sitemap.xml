@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.zeon.im/2018/04/%E5%85%B3%E4%BA%8E%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91%E7%9A%84%E4%B8%80%E4%BA%9B%E6%95%B4%E7%90%86/</loc>
+    <lastmod>2018-04-28T14:48:41+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.zeon.im/2018/04/%E5%9C%A8deepin-15.5-%E9%85%8D%E7%BD%AEphp%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
     <lastmod>2018-04-23T15:47:04+08:00</lastmod>
   </url>
@@ -47,7 +52,7 @@
   
   <url>
     <loc>https://blog.zeon.im/</loc>
-    <lastmod>2018-04-23T15:47:04+08:00</lastmod>
+    <lastmod>2018-04-28T14:48:41+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -59,7 +64,7 @@
   
   <url>
     <loc>https://blog.zeon.im/post/</loc>
-    <lastmod>2018-04-23T15:47:04+08:00</lastmod>
+    <lastmod>2018-04-28T14:48:41+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -70,14 +75,32 @@
   </url>
   
   <url>
+    <loc>https://blog.zeon.im/tags/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2018-04-28T14:48:41+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.zeon.im/tags/%E6%9C%89%E7%9A%84%E6%B2%A1%E7%9A%84/</loc>
     <lastmod>2018-03-29T00:23:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://blog.zeon.im/tags/%E7%80%91%E5%B8%83%E5%BC%8F%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2018-04-28T14:48:41+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.zeon.im/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2018-03-29T00:23:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zeon.im/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2018-04-28T14:48:41+08:00</lastmod>
     <priority>0</priority>
   </url>
   

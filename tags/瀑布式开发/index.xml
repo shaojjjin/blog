@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Nothing here</title>
-    <link>https://blog.zeon.im/post/</link>
-    <description>Recent content in Posts on Nothing here</description>
+    <title>瀑布式开发 on Nothing here</title>
+    <link>https://blog.zeon.im/tags/%E7%80%91%E5%B8%83%E5%BC%8F%E5%BC%80%E5%8F%91/</link>
+    <description>Recent content in 瀑布式开发 on Nothing here</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>©2018 zeon.im</copyright>
     <lastBuildDate>Sat, 28 Apr 2018 14:48:41 +0800</lastBuildDate>
     
-	<atom:link href="https://blog.zeon.im/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.zeon.im/tags/%E7%80%91%E5%B8%83%E5%BC%8F%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -33,46 +33,6 @@
 敏捷团队用产品需求列表（backlogs）来管理用户故事和其他需求。开始迭代前，研发团队将会确定下次交付的产品会包含哪些功能。这种协作方式确保了优先级高的需求能得到优先处理。即使后期频繁的出现产品需求变化，我们也能及时做更新。
 敏捷开发周期 敏捷开发周期中包含下面几个阶段，值得注意的是，单独某个阶段尽量不要重复；同时整个周期中可能同时进行多个阶段，这样在保证灵活性的同时在不断推进开发进度。
  产品规划：一旦某个想法被认为可行，项目团队就会一起努力确定其功能。这个阶段的目标是将想法细分成更小的工作（产品特性），然后将每个特性划分优先级，并将其分配给不同的迭代版本。 需求分析：这个阶段需要和产品经理、利益相关者和用户进行多次会议讨论来确定业务需求。研发团队需要收集信息（比如谁将使用该产品以及他们将如何使用该产品等）。这些要求必须详细、可量化，同时具有相关性。 产品设计：根据前一阶段确定的产品需求而进行研发系统和设计软件。团队需要考虑产品或解决方案的雏形。而测试团队需要提出下一阶段的测试规划。 产品研发：此阶段主要研发和测试优先级高的产品特性，并准备安排迭代（遵循迭代和增量开发方法[IID]）。由于没有可交付的产品特性，因此研发阶段从最小模型开始迭代，这次迭代为之后研发提供基础。 产品测试：代码开发完成后开始进行单元测试、集成测试、系统测试和验收测试，以确保产品能够满足客户需求并匹配用户故事。 部署产品：测试完成后，我们可以将产品提交给客户。但是部署产品并不代表项目已经结束，客户在使用产品中遇到的新问题依旧需要项目团队去解决。   文章整理自明道博客。</description>
-    </item>
-    
-    <item>
-      <title>在deepin 15.5 配置php开发环境</title>
-      <link>https://blog.zeon.im/2018/04/%E5%9C%A8deepin-15.5-%E9%85%8D%E7%BD%AEphp%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
-      <pubDate>Mon, 23 Apr 2018 15:47:04 +0800</pubDate>
-      
-      <guid>https://blog.zeon.im/2018/04/%E5%9C%A8deepin-15.5-%E9%85%8D%E7%BD%AEphp%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</guid>
-      <description>Deepin 是基于 Debian 进行深度开发而来的，对于中国开发者来，是一个说相对比较友好的发行版。
-更新系统并安装必要的软件 首先对系统进行升级，我这边比较习惯使用的oh-my-zsh，所以我在这个地方也一并装上。
-sudo apt update sudo apt upgrade sudo apt install git zsh curl sh -c &amp;quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&amp;quot;  添加 Ondřej Surý 大神打包的 Nginx 源并安装 2.1 首先增加key
-sudo wget -O /etc/apt/trusted.gpg.d/nginx-mainline.gpg https://packages.sury.org/nginx-mainline/apt.gpg  2.2 然后增加 Nginx 源
-sudo cat &amp;gt;&amp;gt; /etc/apt/sources.list.d/nginx.list &amp;lt;&amp;lt; EOF deb https://packages.sury.org/nginx-mainline/stretch main EOF  2.3 安装 Nginx
-sudo apt update sudo apt install nginx-extras  安装完毕后就</description>
-    </item>
-    
-    <item>
-      <title>使用Cloudflare实现DDNS</title>
-      <link>https://blog.zeon.im/2018/03/%E4%BD%BF%E7%94%A8cloudflare%E5%AE%9E%E7%8E%B0ddns/</link>
-      <pubDate>Thu, 29 Mar 2018 16:49:01 +0800</pubDate>
-      
-      <guid>https://blog.zeon.im/2018/03/%E4%BD%BF%E7%94%A8cloudflare%E5%AE%9E%E7%8E%B0ddns/</guid>
-      <description> 很久之前，我写过一个用Dnspod实现动态ip解析的php脚本(想了解的可以看看这里，不过当时的代码写得很烂哈哈)。不过随着这次将博客托管到GitHub Pages，为了启用https，我也不得不将域名的DNS解析服务转移到Cloudflare上来，所以之前实现的在Dnspod动态域名脚本也不能用了。
-开始之前的准备 Cloudflare为开发者们提供了API，具体的API可以看看他们的手册。
-获取Cloudflare的相关信息  登录账号 其实就是你登录的邮箱，不确定的话可以打开 https://www.cloudflare.com/a/profile 第一栏就是了。 API Key 在同一个页面，找到API Key这一栏，点击view API Key，输入自己的密码就能看到自己的API Key。 Zone id 这个位于 “https://www.cloudflare.com/a/overview” 的第二块区域 “Domain Summary” 的右侧。  获取脚本  未完待续。
- </description>
-    </item>
-    
-    <item>
-      <title>再一次，你好</title>
-      <link>https://blog.zeon.im/2018/03/%E5%86%8D%E4%B8%80%E6%AC%A1%E4%BD%A0%E5%A5%BD/</link>
-      <pubDate>Thu, 29 Mar 2018 00:23:11 +0800</pubDate>
-      
-      <guid>https://blog.zeon.im/2018/03/%E5%86%8D%E4%B8%80%E6%AC%A1%E4%BD%A0%E5%A5%BD/</guid>
-      <description>再一次，你好。
-之前也断断续续地部署过不少的博客，一路走下来像 wordpress、typecho、hexo或者是ghost这些博客平台多多少少都有接触过，但其实部署博客最大的问题不是在于部署而是在坚持吧。
-这次的博客平台选择的是hugo,同时将其托管于GitHub上，算是一种很简单的实现形式。
-之前写过的一些笔记啊什么的乱七八糟的看心情要不要重新整理之后再发布上来。
- 不忘初心，方得始终。
- </description>
     </item>
     
   </channel>

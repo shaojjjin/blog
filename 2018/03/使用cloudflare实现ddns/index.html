@@ -82,34 +82,19 @@
 
 <p>Cloudflare为开发者们提供了API，具体的API可以看看他们的<a href="https://api.cloudflare.com/">手册</a>。</p>
 
-<p>获取Cloudflare的相关信息</p>
+<h3 id="获取cloudflare的相关信息">获取Cloudflare的相关信息</h3>
 
-<h3 id="登录账号">登录账号</h3>
-
-<p><img src="https://dn-imzeon.qbox.me/blog/180329/BH98339BJ1.png?imageslim" alt="获取邮箱" />
-其实就是你登录的邮箱，不确定的话可以打开 <a href="https://www.cloudflare.com/a/profile">https://www.cloudflare.com/a/profile</a> 第一栏就是了。</p>
-
-<h3 id="api-key">API Key</h3>
-
-<p><img src="https://dn-imzeon.qbox.me/blog/180329/K8609k1ALj.png?imageslim" alt="获取api_key" />
-在同一个页面，找到<code>API Key</code>这一栏，点击<code>view API Key</code>，输入自己的密码就能看到自己的API Key。</p>
-
-<h3 id="zone-id">Zone id</h3>
-
-<p><img src="https://dn-imzeon.qbox.me/blog/180329/h1hd73jL9b.png?imageslim" alt="获取Zone_id" />
-这个位于 “<a href="https://www.cloudflare.com/a/overview">https://www.cloudflare.com/a/overview</a>” 的第二块区域 “Domain Summary” 的右侧。</p>
-
-<h2 id="实现-ddns">实现 DDNS</h2>
-
-<h3 id="openwrt-下的-ddns">OPENWRT 下的 DDNS</h3>
-
-<blockquote>
-<p>最近发现openwrt系统自带的ddns服务支持从Cloudflare更新记录，所以我这边就没有去重新实现脚本了。</p>
-
-<p>等什么时候有空再将具体的步骤记录下来。</p>
-
-<p>2018.04.23</p>
-</blockquote>
+<ol>
+<li>登录账号
+<img src="https://dn-imzeon.qbox.me/blog/180329/BH98339BJ1.png?imageslim" alt="获取邮箱" />
+其实就是你登录的邮箱，不确定的话可以打开 <a href="https://www.cloudflare.com/a/profile">https://www.cloudflare.com/a/profile</a> 第一栏就是了。</li>
+<li>API Key
+<img src="https://dn-imzeon.qbox.me/blog/180329/K8609k1ALj.png?imageslim" alt="获取api_key" />
+在同一个页面，找到<code>API Key</code>这一栏，点击<code>view API Key</code>，输入自己的密码就能看到自己的API Key。</li>
+<li>Zone id
+<img src="https://dn-imzeon.qbox.me/blog/180329/h1hd73jL9b.png?imageslim" alt="获取Zone_id" />
+这个位于 “<a href="https://www.cloudflare.com/a/overview">https://www.cloudflare.com/a/overview</a>” 的第二块区域 “Domain Summary” 的右侧。</li>
+</ol>
 
 <h3 id="获取脚本">获取脚本</h3>
 

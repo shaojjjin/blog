@@ -19,14 +19,7 @@
       <guid>https://blog.zeon.im/2018/03/%E4%BD%BF%E7%94%A8cloudflare%E5%AE%9E%E7%8E%B0ddns/</guid>
       <description> 很久之前，我写过一个用Dnspod实现动态ip解析的php脚本(想了解的可以看看这里，不过当时的代码写得很烂哈哈)。不过随着这次将博客托管到GitHub Pages，为了启用https，我也不得不将域名的DNS解析服务转移到Cloudflare上来，所以之前实现的在Dnspod动态域名脚本也不能用了。
 开始之前的准备 Cloudflare为开发者们提供了API，具体的API可以看看他们的手册。
-获取Cloudflare的相关信息
-登录账号 其实就是你登录的邮箱，不确定的话可以打开 https://www.cloudflare.com/a/profile 第一栏就是了。
-API Key 在同一个页面，找到API Key这一栏，点击view API Key，输入自己的密码就能看到自己的API Key。
-Zone id 这个位于 “https://www.cloudflare.com/a/overview” 的第二块区域 “Domain Summary” 的右侧。
-实现 DDNS OPENWRT 下的 DDNS  最近发现openwrt系统自带的ddns服务支持从Cloudflare更新记录，所以我这边就没有去重新实现脚本了。
-等什么时候有空再将具体的步骤记录下来。
-2018.04.23
- 获取脚本  未完待续。
+获取Cloudflare的相关信息  登录账号 其实就是你登录的邮箱，不确定的话可以打开 https://www.cloudflare.com/a/profile 第一栏就是了。 API Key 在同一个页面，找到API Key这一栏，点击view API Key，输入自己的密码就能看到自己的API Key。 Zone id 这个位于 “https://www.cloudflare.com/a/overview” 的第二块区域 “Domain Summary” 的右侧。  获取脚本  未完待续。
  </description>
     </item>
     

@@ -86,68 +86,25 @@ sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/to
 
 <h2 id="添加-ondřej-surý-大神打包的-nginx-源并安装">添加 Ondřej Surý 大神打包的 Nginx 源并安装</h2>
 
-<h3 id="1-首先增加key">1. 首先增加key</h3>
+<p>2.1 首先增加key</p>
 
 <pre><code class="language-bash">sudo wget -O /etc/apt/trusted.gpg.d/nginx-mainline.gpg https://packages.sury.org/nginx-mainline/apt.gpg
 </code></pre>
 
-<h3 id="2-然后增加-nginx-源">2. 然后增加 Nginx 源</h3>
+<p>2.2 然后增加 Nginx 源</p>
 
-<pre><code class="language-bash">sudo cat &gt;&gt; /etc/apt/sources.list.d/nginx.list &lt;&lt; EOF
+<pre><code>sudo cat &gt;&gt; /etc/apt/sources.list.d/nginx.list &lt;&lt; EOF
 deb https://packages.sury.org/nginx-mainline/stretch main
 EOF
 </code></pre>
 
-<h3 id="3-安装-nginx">3. 安装 Nginx</h3>
+<p>2.3 安装 Nginx</p>
 
-<pre><code class="language-bash">sudo apt update
+<pre><code>sudo apt update
 sudo apt install nginx-extras
 </code></pre>
 
-<h2 id="添加-ondřej-surý-大神打包的-php-源并安装-php-7-x">添加 Ondřej Surý 大神打包的 PHP 源并安装 PHP 7.x</h2>
-
-<p>Ubuntu 的 <a href="https://launchpad.net/~ondrej/+archive/ubuntu/php">PPA for PHP</a> 就是这位大神打包的啦，我们这边也是采用了这位大神打包的Debian源。</p>
-
-<h3 id="1-同样也是添加key">1. 同样也是添加key</h3>
-
-<pre><code class="language-bash">sudo wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
-</code></pre>
-
-<h3 id="2-添加源">2. 添加源</h3>
-
-<pre><code>sudo sh -c 'echo &quot;deb https://packages.sury.org/php/stretch main&quot; &gt; /etc/apt/sources.list.d/php.list'
-sudo apt update
-</code></pre>
-
-<h3 id="3-安装自己需要的php版本">3. 安装自己需要的PHP版本</h3>
-
-<p>这个源默认的PHP版本是7.1.x，如果需要安装更高版本的7.2.x 或者安装相对较老的版本 7.0.x 或 5.6.x，可以根据下面的代码自行修改所需要的版本。</p>
-
-<pre><code class="language-zsh">sudo apt install php7.2-fpm php7.2-mysql php7.2-curl php7.2-gd php7.2-mbstring php7.2-xml php7.2-xmlrpc php7.2-zip php7.2-opcache
-</code></pre>
-
-<p>如果希望安装其他组件，可以通过搜索看看有没有对应的包。</p>
-
-<pre><code class="language-bash">sudo apt-cache search php7.2* | grep php
-</code></pre>
-
-<p>修改 <code>php.ini</code> 防止跨目录攻击，如果安装的 PHP 7.1.x 请相应修改 <code>/etc/php/7.1/fpm/php.ini</code> PHP 7.0.x 请相应修改 <code>/etc/php/7.0/fpm/php.ini</code> PHP 5.6.x 请修改 <code>/etc/php/5.6/fpm/php.ini</code></p>
-
-<pre><code class="language-zsh">sudo sed -i 's/;cgi.fix_pathinfo=1/cgi.fix_pathinfo=0/' /etc/php/7.2/fpm/php.ini 
-</code></pre>
-
-<h3 id="4-重启-php">4. 重启 PHP</h3>
-
-<pre><code>sudo systemctl restart php7.2-fpm  
-</code></pre>
-
-<p>出现如图则说明安装成功。</p>
-
-<p><img src="https://dn-imzeon.qbox.me/18-4-23/73184982.jpg" alt="" /></p>
-
-<blockquote>
-<p>未完待续。</p>
-</blockquote>
+<p>安装完毕后就</p>
 
       
       
@@ -162,6 +119,8 @@ sudo apt update
     
       <span class="previous">&larr; <a href="https://blog.zeon.im/2018/03/%E4%BD%BF%E7%94%A8cloudflare%E5%AE%9E%E7%8E%B0ddns/" rel="prev">使用Cloudflare实现DDNS</a></span>
     
+    
+      <span class="next"><a href="https://blog.zeon.im/2018/04/%E5%85%B3%E4%BA%8E%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91%E7%9A%84%E4%B8%80%E4%BA%9B%E6%95%B4%E7%90%86/" rel="next">关于敏捷开发的一些整理</a> &rarr;</span>
     
   </nav>
 
